@@ -1,0 +1,316 @@
+body {
+  font-family: 'Pontano Sans', sans-serif;
+  margin: 0;
+  background-color: #E7EAEA;
+  /*background-color: #35F3F3;*/
+}
+
+nav {
+  background-color: black;
+}
+
+.nav {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 10px 36px;
+  font-size: 15px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #B2B1B1;
+  cursor: pointer;
+}
+
+.nav span {
+  font-size: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.main {
+  background-image: url('../img/iphoneblack.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: 0;
+  text-align: center;
+}
+
+ .pic a {
+  text-decoration: none;
+}
+
+.main h3 {
+  color: white;
+  margin: 0;
+  font-size: 40px;
+  padding: 170px 0 5px 0;
+}
+
+.main p {
+  color: white;
+  font-size: 60px;
+  padding-top: 5px;
+  margin-top: 0;
+}
+
+.menu {
+  height: 200px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  border: solid white 4px;
+}
+
+.menu a {
+  color: black;
+}
+
+.keynote {
+  background-image: url("../img/keynote.jpg");
+  background-position: center;
+  width: 25%;
+  float: left;
+  height: 200px;
+  /*margin: 2px 2px 2px 3px;*/
+  border-left: solid white 2px;
+  border-right: solid white 5.4px;
+  text-align: center;
+}
+
+.photos {
+  background-image: url("../img/camera.jpg");
+  background-position: center;
+  width: 24.5%;
+  float: left;
+  height: 200px;
+  border-right: solid white 5.4px;
+  /*margin: 2px;*/
+  text-align: center;
+}
+
+.watch {
+  background-image: url("../img/applewatch.jpg");
+  background-position: center;
+  width: 24%;
+  float: left;
+  height: 200px;
+  border-right: solid white 5.4px;
+  /*margin: 2px;*/
+  text-align: center;
+}
+
+.ipad {
+  background-image: url("../img/ipad.jpg");
+  background-position: center;
+  width: 25%;
+  float: left;
+  height: 200px;
+  /*margin: 2px;*/
+  text-align: center;
+}
+
+.keynote h3 {
+  font-size: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.keynote p {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.photos p {
+  font-size: 20px;
+  font-weight: bold;
+  float: right;
+  padding-right: 10px;
+  padding-top: 5px;
+  margin-top: 0;
+  color: white;
+}
+
+.watch h4 {
+  font-size: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 7px 3px 2px 190px;
+}
+
+.watch p {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 192px;
+}
+
+.ipad h4 {
+  font-size: 20px;
+  /*padding-bottom: 0;*/
+  margin-bottom: 0;
+  /*padding-left: 192px;*/
+  padding: 60px 0 0 170px;
+}
+
+.ipad p {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 192px;
+}
+
+.bottom {
+  padding-top: 12px;
+  width: 80%;
+  margin: 0 auto;
+  height: 260px;
+  /*background-color: #F6F9F9;*/
+}
+
+.bottom li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.except li:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+.one, .two, .three, .four, .five {
+  /*display: inline-block;*/
+  width: 20%;
+  float: left;
+  color: #5B5A5A;
+  /*height: 300px;*/
+}
+
+.one ul, .two ul, .three ul, .four ul, .five ul {
+  list-style: none;
+  font-size: 11px;
+}
+
+.bottom li {
+  padding: 2px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 13px;
+}
+
+.footer {
+  margin: 0 auto;
+  padding-left: 75px;
+  width: 80%;
+}
+
+.footer p {
+  color: #898686;
+  font-size: 11px;
+  width: 93.5%;
+  padding-bottom: 10px;
+  border-bottom: solid #B0AFAF 1px;
+  margin-bottom: 0;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer2 {
+  width: 80%;
+  padding-left: 75px;
+  padding-top: 0;
+  margin: 0 auto;
+}
+
+.left {
+  color: #898686;
+  font-size: 11px;
+  width: 25%;
+  float: left;
+}
+
+.middle {
+  color: #898686;
+  font-size: 11px;
+  width: 60%;
+  float: left;
+}
+
+.right {
+  color: #898686;
+  font-size: 11px;
+  width: 15%;
+  float: left;
+  margin-top: 0;
+  padding-top: 1px;
+}
+
+.middle ul {
+  list-style: none;
+}
+
+.middle li {
+  display: inline-block;
+  padding: 0 10px;
+  border-right: solid #C4C3C3 1px;
+  color: #5B5A5A;
+}
+
+.middle a {
+  text-decoration: none;
+  color: #5B5A5A;
+}
+
+.middle a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.right p {
+  padding-top: 6px;
+  margin-top: 0;
+}
+
+.right img {
+  height: 15px;
+  width: 15px;
+  border-radius: 25px;
+}
+
+.right span {
+  padding: 15px 8px 0 0;
+}
+
+.right a {
+  text-decoration: none;
+  color: #5B5A5A;
+}
+
+.right a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
